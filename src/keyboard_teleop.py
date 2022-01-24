@@ -81,7 +81,7 @@ if __name__ == "__main__":
         '/quadrotor_1/takeoff', Empty, queue_size=1)
     pub_empty_landing = rospy.Publisher(
         '/quadrotor_1/land', Empty, queue_size=1)
-    rospy.init_node('teleop_ardrone_keyboard')
+    rospy.init_node('teleop_keyboard')
 
     try:
         print(msg)
